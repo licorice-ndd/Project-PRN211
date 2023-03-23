@@ -51,6 +51,11 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Product?.ProductID">Edit</a> |
-    <a class="nav-link text-dark" href="/Staff/Product/">Back To List</a>
+    <a asp-page="./Edit" asp-route-id="@Model.Product?.ProductID">Edit</a>
+    <style>
+        img {
+            width: 3%;
+        }
+    </style>
+    <a class="nav-link text-dark" href="/Staff/Product/"><img src="https://fontawesomeicons.com/images/svg/arrow-back.svg" /></a>
 </div>

@@ -53,7 +53,12 @@
     
     <form method="post">
         <input type="hidden" asp-for="Product.ProductID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a class="nav-link text-dark" href="/Staff/Product/">Back To List</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <style>
+            img {
+                width: 3%;
+            }
+        </style>
+        <a class="nav-link text-dark" href="/Staff/Product/"><img src="https://fontawesomeicons.com/images/svg/arrow-back.svg" /></a>
     </form>
 </div>

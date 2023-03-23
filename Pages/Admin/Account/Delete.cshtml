@@ -41,7 +41,13 @@
     
     <form method="post">
         <input type="hidden" asp-for="Account.AccountID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a class="nav-link text-dark" href="/Admin/Account/">Back To List</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+
+        <style>
+            img {
+                width: 3%;
+            }
+        </style>
+        <a class="nav-link text-dark" href="/Admin/Account/"><img src="https://fontawesomeicons.com/images/svg/arrow-back.svg" /></a>
     </form>
 </div>
